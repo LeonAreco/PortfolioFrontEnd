@@ -35,17 +35,16 @@ header {
     padding: 20px;
 }
 
-header .logo img {
-    color: #593D36;
-    width: 50px;
-    vertical-align: top;
-}
-
-header .logo a {
+header .logo img, .titulogo {
+    display:flex;
+    margin-left: 4vw;
+    width: 200px;
     color: #593D36;    
-    font-size: 20px;
+    font-size: 1em;
+    justify-content: center;
+    font-weight: bold;
+    line-height: 15px;
     text-decoration: none;
-    line-height: 50px;
 }
 
 header nav {
@@ -53,29 +52,20 @@ header nav {
     flex-wrap: wrap;
     align-items: center;
     width: 55%;
-    color: #fff;
 }
 
 header nav a {
     flex-grow: 1;
     background: #593D36;
-    font-size: 1em;
     color: #fff;
     text-align: center;
     text-decoration: none;
-    padding: 5px;
-    border-radius: 10px;
+    padding: 10px;
 }
 
 header nav a:hover {
     background: #965a27;
 }
-
-header .logo img {
-    width: 150px;
-    vertical-align:auto;
-}
-
 
 .principal {
     /* flex: 1 1 70%; */
@@ -98,7 +88,7 @@ header .logo img {
 }
 
 aside {
-    /* flex: 1  1 30%; */
+    /* flex: 1 1 30%; */
     flex: 0 0 300px;
     display: flex;
     flex-wrap: wrap;
@@ -108,15 +98,11 @@ aside {
     padding: 20px;
 }
 
-aside .widget {
+/* aside .widget {
     background: #593D36;
-    height: 200px;
+    height: 230px;
     margin: 10px;
-}
-
-aside .widget .imagen {
-    position:relative;
-}
+} */
 
 footer {
     display: flex;
@@ -136,10 +122,10 @@ footer .enlaces {
 footer .enlaces a {
     display: flex;
     flex-grow: 1;
-    background: #99BF9F;
-    color: black;
+    background: #593D36;
+    color: white;
     height: vw;
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: center;
     align-items: center;
     text-decoration: none;
@@ -160,6 +146,10 @@ footer .redessociales a {
     color: #fff;
     text-decoration: none;
     padding: 10px;
+}
+
+footer .redessociales a:hover {
+    background: #009e0d;
 }
 
 @media screen and (max-width: 800px) {
@@ -185,11 +175,7 @@ footer .redessociales a {
         flex:0;
     }
 
-    aside .widget {
-        flex-grow: 1;
-    }
-
-    aside .widget .imagen a button {
+    aside .imagen a button {
         border-style: none;
         padding: 0px;
         margin: 0px;
@@ -197,12 +183,22 @@ footer .redessociales a {
 
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:715px) { 
     aside {
         flex-direction: column;
-    }
-
+        align-items: center;
+    } 
     footer {
         justify-content: space-around;
+    }
+} 
+
+@media screen and (max-width:540px) {
+    footer .enlaces a {
+        font-size: 0.7em;
+    }
+
+    footer .redessociales a {
+        padding: 0px;
     }
 }
