@@ -96,6 +96,19 @@ header nav a:hover {
     background:  #ffff ;
     padding: 20px;
 }
+
+.principal .fa-1x a  {
+    color:#593D36;
+    text-align: center;
+    font-size: 2.5vh;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+.principal .fa-1x a:hover  {
+        color:fuchsia ;
+      }
+
 footer {
     display: flex;
     flex-direction: column;
