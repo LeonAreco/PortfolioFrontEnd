@@ -1,0 +1,90 @@
+@media only screen and (max-width:900px) {
+    
+    header div.contenedor {
+        display: inline;
+        
+    }
+
+    header div.contenedor nav {
+        width: 100%;
+        display: inline;
+    }
+}
+
+@media only screen and (max-width:700px) {
+
+   div.contenedor {
+        display: flex;
+        place-content: space-between;
+    }
+
+    header .logo,.titulogo {
+        margin: 0px;
+    }
+
+    header nav a {
+        padding: 0px;
+    }
+
+    #menu-check:not(:checked) ~ nav {
+        display: none;
+    }
+
+    #menu-check:checked ~ nav {
+        display: block;
+    }
+
+    #menu {
+        display: block;
+        color:var(--color-1);
+        background-color: var(--bgcolor-1);
+        font-size: 1.2em;
+        font-weight: bold;
+        border:3px solid var(--color-1);
+        border-radius: 0.3em;
+        position:absolute;
+        right: 0.5em;
+        top:0.5em;
+        z-index: 9999;
+    }
+
+    #menu:hover {
+        color: var(--text-color-3);
+        background: var(--color-1);
+    }
+
+    #menu-cerrar {
+        display: none;
+    }
+
+    #menu-check:checked ~ label #menu-abrir {
+        display: none;
+    }
+
+    #menu-check:checked ~ label #menu-cerrar {
+        display: block;
+    }
+
+    header div.contenedor nav {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        height: 100%;
+        background-color: var(--bgcolor-2);
+        padding-top: 0.5em;
+        padding-right: 1.5em;
+        opacity: 0.8;
+        color: var(--text-color-3);
+        font-size: 1.4em;
+    }
+
+    header div.contenedor nav {
+        color: var(--text-color-3);
+        background: none;
+    }
+
+    header div.contenedor nav a {
+        display: block;
+        text-align: right;
+    }
+}

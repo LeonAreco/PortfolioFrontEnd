@@ -1,0 +1,47 @@
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.contenedor h2 {
+    text-align: center;
+}
+
+.contenedor p {
+    text-align: justify;
+    width: 100%;
+}
+
+.imagenes{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.imagenes img{
+
+    width: 400px;
+}
+
+
+@media screen and (max-width:1000px){
+    .imagenes img {
+        width: 300px;
+    }
+}
+
+
+@media screen and (max-width:760px){
+    .imagenes img{
+        display: flex;
+        justify-content: center;
+        margin: 0.5rem;
+        width: 350px;
+    }
+    
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/formulario.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Comunicate</title>
+</head>
+<body>
+     
+    <div class="contenedor">    
+        <header>
+            <input type="checkbox" id="menu-check">
+                    
+                    <label id="menu" for="menu-check">
+                        <span id="menu-abrir">&#9776;</span>
+                        <span id="menu-cerrar">X</span>
+                    </label>
+            <div class="logo">
+                <img src="images/logo2022.jpg" alt="">
+                <a href="index.html" class="titulogo">Los Gatitos del Gutierrez</a>
+            </div>
+ 
+            <nav>
+                <a href="somos.html">Quienes Somos</a>
+                <a href="adopcion.html">Que es Adoptar</a>
+                <a href="donativos.html">Donativos</a>
+                <a href="comunicate.html">Comunicate</a>
+                <a href="gatirandom.html">GatiRandom</a>
+            </nav>
+        </header>
+
+                <section class="formulario">
+                    <form id = "form">                            
+                        <div class="informacion">
+                            <div name="datosPers" class="datos pers">
+                                <label for="name">Ingresa tu Nombre</label>
+                                <input id="name" name="nombre" type="text" placeholder="Nombre">
+                                <span id="error_nom"></span>
+            
+                                <label for="surname">Ingresa tu Apellido</label>
+                                <input id="surname" name="apellido" type="text" placeholder="Apellido">
+                                <span id ="error_apell"></span>
+
+                            </div>
+
+                            <div name="datosCont" class="datos cont">
+                                <label for="phone">Ingresa tu numero de telefono</label>
+                                <input id="phone" name="telefono" type="number" placeholder="Número de teléfono">
+                                <span id = "error_tel"></span>
+
+                                <label for="email">Ingresa tu Email</label>
+                                <input id="email" name="email" type="email" placeholder="Email">
+                                <span id ="error_email"></span>
+                            </div>
+                        
+                        </div>
+                        <p>
+                            No compartiremos tu correo electrónico
+                        </p>
+                            <div class="img">
+                              <img class="img-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-BPR7nxt0kYVs9evaq12f97pqYAnjl0X5Fg&usqp=CAU">
+                            </div>
+                       
+                            <div class="mensaje">
+                                <textarea  id="message" name="message" placeholder="Mandá tu ¡Sí, quiero!. Adopción responsable." rows="11" cols="50"></textarea>
+                            </div>
+                            <p>
+                               Pronto te contestaremos
+                            </p>
+
+
+                            <div class="boton">
+                                <button type="submit" class="btn">Enviar</button></form>
+                            </div>
+                </form>
+                </section>
+
+
+        <footer>
+            <div class="redessociales"> 
+                <a href=index.html><p class="blink">Volver</p><a>
+                <a href="https://es-la.facebook.com/gatitosdelgutierrezok/"><button type="button" class="sociales"> <img src="images/facebook.png" alt="facebook"><h3>Facebook</h3></button></a>
+                <a href="https://www.instagram.com/gatitos_del_gutierrez/"><button type="button" class="sociales"> <img src="images/instagram.png" alt><h3>Instagram</h3></button></a>
+                <h3 class="piedepie">Copyright © 2022</h3>
+            </div>
+        </footer>
+
+    <script src="./js/formulario.js"></script>
+</body>
+</html>

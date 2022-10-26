@@ -1,0 +1,111 @@
+
+#datos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+#form{
+    width: 100%;
+}
+
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.informacion label{
+    padding: 1rem;
+    text-align: center;
+    background-color: rgba(114, 116, 119, 0.5);
+    font-size: 1rem;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.informacion input{
+    margin-top: 1rem;
+    text-align: center;
+    border: 1px solid black;;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.informacion span {
+    color: red;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#form .img{
+    display: flex;
+    justify-content: center;
+}
+
+
+.mensaje{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+#message{
+    padding-top: 5px;
+    padding-left: 5px;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+#form p, h1{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    padding: 3px 15px 3px 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0.1rem 0.1rem 1rem gray;;
+    
+}
+
+.btn:active{
+    box-shadow: inset .2rem .2rem 1rem white;
+    
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    
+    .formulario{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #form{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
+}
+

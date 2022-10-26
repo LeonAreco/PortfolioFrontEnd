@@ -1,0 +1,123 @@
+.title{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+.carousel-indicators button{
+    width: 80%;
+    display: none;
+    
+}
+
+
+
+.carousel-item img{
+    width: 100%;
+    height: 350px;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.carousel #formAdopcion{
+    width: 100%;
+}
+
+#formAdopcion {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#formAdopcion p{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+#formAdopcion .datos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem 0 1rem;
+}
+.datos input{
+    width: 100%;
+}
+
+
+#checkAdop{
+    margin-top: 1rem;
+}
+.datos span{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+#valida_check{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.datos a{
+    text-decoration: underline black;
+    color: black
+
+
+}
+
+.datos a:hover{
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline blue;
+}
+
+
+
+.datos button{
+    background-color: grey;
+    padding: 0 1rem 0 1rem;
+    margin: 1rem 0 1rem 0;
+}
+
+#textArea{
+    width: 100%;
+}
+
+
+
+footer .redessociales p{
+    margin: 0;
+}
+
+@media screen and (min-width:750px) {
+    
+    .carousel {
+        width: 100%;
+    }
+
+    .carousel-item img{
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width:900px) {
+
+    
+    header div.contenedor {
+        display: inline;
+        
+    }
+
+    header div.contenedor nav {
+        width: 100%;
+        display: inline;
+    }
+}
+
