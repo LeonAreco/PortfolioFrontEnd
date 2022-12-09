@@ -22,6 +22,15 @@ header div.contenedor nav {
     display: none;  
 }
 
+section.principal {
+    padding: 0px;
+}
+
+.centrar  {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
 
 .contenedor {
     display: flex;
@@ -108,6 +117,10 @@ header nav a:hover {
 
 .principal .fa-1x a:hover  {
         color:fuchsia;
+}
+
+.principal article h2 {
+    padding: 15px 0px;
 }
 
 footer {

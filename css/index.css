@@ -107,13 +107,13 @@ header nav a:hover {
 }
 
 .principal .fa-1x a:hover  {
-        color:fuchsia;
+    color:fuchsia;
 }
 
-.principal article {
-    margin-bottom: 5px;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #F2F2F2;
+.principal article h2 {
+    margin: 15px 0px;
+    padding: 5px 0px;
+    border: 2px solid brown;
 } 
 
 aside .imagen a .botones img {

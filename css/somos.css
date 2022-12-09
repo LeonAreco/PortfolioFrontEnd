@@ -1,10 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
 .contenedor {
-    display: flex;
+    margin-right: 0px;
     flex-direction: column;
-    width: 90%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    width: 100%;
     max-width: 1000px;
-    margin: auto;
 }
 
 .contenedor h2 {
@@ -24,7 +32,6 @@
 }
 
 .imagenes img{
-
     width: 400px;
 }
 
