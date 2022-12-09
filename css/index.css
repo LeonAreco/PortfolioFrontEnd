@@ -52,8 +52,6 @@ header {
     align-items: center;
     background: #e4c7a1;
     width: 100%;
-    padding: 20px;
-    margin: 0 auto;
 }
 
 header .logo img, .titulogo {
@@ -111,9 +109,10 @@ header nav a:hover {
 }
 
 .principal article h2 {
-    margin: 15px 0px;
+    margin-bottom: 15px 0px;
     padding: 5px 0px;
     border: 2px solid brown;
+    overflow:visible;
 } 
 
 aside .imagen a .botones img {
