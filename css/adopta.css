@@ -1,12 +1,19 @@
 .title{
-    margin: 160px 0px 25px 0px;
     width: 100%;
     text-align: center;
 }
 
+
+
+
+
 .carousel-indicators button{
     width: 80%;
+    display: none;
+    
 }
+
+
 
 .carousel-item img{
     width: 100%;
@@ -21,7 +28,7 @@
 
 #formAdopcion {
     display: flex;
-    width: 100%;
+    width: 70%;
     flex-direction: column;
     justify-content: center;
 }
@@ -29,11 +36,11 @@
 #formAdopcion p{
     text-align: center;
     font-size: 20px;
+    margin-bottom: 0;
 }
 
 #formAdopcion .datos{
     display: flex;
-    text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -41,13 +48,12 @@
 }
 .datos input{
     width: 100%;
-    margin-bottom: 10px;
 }
+
 
 #checkAdop{
     margin-top: 1rem;
 }
-
 .datos span{
     text-align: center;
     color: red;
@@ -84,9 +90,7 @@
     width: 100%;
 }
 
-footer {
-    margin-top: 20px;
-}
+
 
 footer .redessociales p{
     margin: 0;

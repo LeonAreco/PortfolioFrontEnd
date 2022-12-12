@@ -52,6 +52,8 @@ header {
     align-items: center;
     background: #e4c7a1;
     width: 100%;
+    padding: 20px;
+    margin: 0 auto;
 }
 
 header .logo img, .titulogo {
@@ -95,24 +97,10 @@ header nav a:hover {
     padding: 20px;
 }
 
-.principal .fa-1x a  {
-    color:#593D36;
-    text-align: center;
-    align-items: center;
-    font-size: 2.5vh;
-    font-weight: bold;
-    text-decoration:none;
-}
-
-.principal .fa-1x a:hover  {
-    color:fuchsia;
-}
-
-.principal article h2 {
-    margin-bottom: 15px 0px;
-    padding: 5px 0px;
-    border: 2px solid brown;
-    overflow:visible;
+.principal article {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #F2F2F2;
 } 
 
 aside .imagen a .botones img {

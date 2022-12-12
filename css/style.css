@@ -22,15 +22,6 @@ header div.contenedor nav {
     display: none;  
 }
 
-section.principal {
-    padding: 0px;
-}
-
-.centrar  {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 15px;
-}
 
 .contenedor {
     display: flex;
@@ -105,24 +96,6 @@ header nav a:hover {
     background:  #ffff ;
     padding: 20px;
 }
-
-.principal .fa-1x a  {
-    color:#593D36;
-    text-align: center;
-    align-items: center;
-    font-size: 2.5vh;
-    font-weight: bold;
-    text-decoration:none;
-}
-
-.principal .fa-1x a:hover  {
-        color:fuchsia;
-}
-
-.principal article h2 {
-    padding: 15px 0px;
-}
-
 footer {
     display: flex;
     flex-direction: column;
